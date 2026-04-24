@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    color: #0277bd;
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+header p {
+    color: #555;
+    font-size: 16px;
+}
+
+.form-container {
+    margin: 20px 0;
+}
+
+.form-container h2 {
+    color: #01579b;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    background-color: #0288d1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0277bd;
+}
+
+.result-output {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+    display: none;
+    text-align: left;
+}
+
+.result-output h3 {
+    color: #01579b;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.result-output h4 {
+    color: #0277bd;
+    margin: 15px 0 10px;
+    font-size: 18px;
+}
+
+.personal-grid, .subjects-grid {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.personal-grid th, .personal-grid td, .subjects-grid th, .subjects-grid td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.personal-grid th {
+    background-color: #0288d1;
+    color: #fff;
+    width: 40%;
+}
+
+.personal-grid td {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.subjects-grid th {
+    background-color: #0277bd;
+    color: #fff;
+    width: 40%;
+}
+
+.subjects-grid td {
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+.error {
+    color: #d32f2f;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+}
